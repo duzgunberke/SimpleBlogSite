@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BlogWebsiteDbModelStoreContainer" CdmEntityContainer="BlogWebsiteDbEntities">
+    <EntitySetMapping Name="TBL_BLOG">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_BLOG">
+        <MappingFragment StoreEntitySet="TBL_BLOG">
+          <ScalarProperty Name="BLOGID" ColumnName="BLOGID" />
+          <ScalarProperty Name="BLOGBASLIK" ColumnName="BLOGBASLIK" />
+          <ScalarProperty Name="BLOGICERIK" ColumnName="BLOGICERIK" />
+          <ScalarProperty Name="BLOGTARIH" ColumnName="BLOGTARIH" />
+          <ScalarProperty Name="BLOGTUR" ColumnName="BLOGTUR" />
+          <ScalarProperty Name="BLOGKATEGORI" ColumnName="BLOGKATEGORI" />
+          <ScalarProperty Name="BLOGGORSEL" ColumnName="BLOGGORSEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_HAKKIMIZDA">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_HAKKIMIZDA">
+        <MappingFragment StoreEntitySet="TBL_HAKKIMIZDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ILETISIM">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_ILETISIM">
+        <MappingFragment StoreEntitySet="TBL_ILETISIM">
+          <ScalarProperty Name="MESAJID" ColumnName="MESAJID" />
+          <ScalarProperty Name="ADSOYAD" ColumnName="ADSOYAD" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_KATEGORI">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_KATEGORI">
+        <MappingFragment StoreEntitySet="TBL_KATEGORI">
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="KATEGORIAD" ColumnName="KATEGORIAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_TUR">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_TUR">
+        <MappingFragment StoreEntitySet="TBL_TUR">
+          <ScalarProperty Name="TURID" ColumnName="TURID" />
+          <ScalarProperty Name="TURAD" ColumnName="TURAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_YORUM">
+      <EntityTypeMapping TypeName="BlogWebsiteDbModel.TBL_YORUM">
+        <MappingFragment StoreEntitySet="TBL_YORUM">
+          <ScalarProperty Name="YORUMID" ColumnName="YORUMID" />
+          <ScalarProperty Name="KULLANICIAD" ColumnName="KULLANICIAD" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="YORUMICERIK" ColumnName="YORUMICERIK" />
+          <ScalarProperty Name="YORUMBLOG" ColumnName="YORUMBLOG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
