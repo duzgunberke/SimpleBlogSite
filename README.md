@@ -26,4 +26,5 @@
 
 * Entity Framework
 
+ <img src="https://i.hizliresim.com/ibklimc.gif" align="center" style="width: 60%" />
                     and much more ...
