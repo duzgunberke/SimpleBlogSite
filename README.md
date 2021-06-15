@@ -1,3 +1,4 @@
+ <img src="https://i.hizliresim.com/ibklimc.gif" align="center" style="width: 60%" />
 * QL Database and Tables
 
 * SQL Data Types
@@ -25,6 +26,4 @@
 * Admin and User Panels
 
 * Entity Framework
-
- <img src="https://i.hizliresim.com/ibklimc.gif" align="center" style="width: 60%" />
                     and much more ...
